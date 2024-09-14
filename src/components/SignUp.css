@@ -1,0 +1,72 @@
+/* App.css */
+.container-1 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100vh;
+  padding: 20px;
+  background-color: #f0f4f7;
+}
+
+.left-1,
+.right {
+  width: 40%;
+}
+
+.left-1 {
+  text-align: center;
+  /* background-color: gray; */
+  padding: 20px;
+  border-radius: 10px;
+  border: 1px solid #e0e0e0;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.right {
+  text-align: center;
+}
+
+h1,
+h2 {
+  margin-bottom: 10px;
+}
+
+p {
+  margin-bottom: 20px;
+  color: #555;
+}
+
+.im {
+  max-width: 80%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 20px;
+  margin-bottom: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 10px;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+/* button[type="button"] { */
+/* } */
+form p {
+  margin-top: 10px;
+}

@@ -1,0 +1,95 @@
+.head {
+  display: flex;
+  margin-left: 10px;
+}
+span {
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-bottom: 10px;
+  font-size: medium;
+  font-weight: bold;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.div-1 {
+  background-color: palegreen;
+  width: 45%;
+  height: 150px;
+  margin-right: 10px;
+  margin-left: 15px;
+  border-radius: 10px;
+  padding-left: 17px;
+}
+.div-2 {
+  background-color: palegreen;
+  width: 46%;
+  height: 150px;
+  margin-right: 10px;
+  margin-left: 15px;
+  border-radius: 10px;
+  padding-left: 17px;
+}
+h5 {
+  color: rgb(0, 128, 49);
+  font-weight: bold;
+}
+.sec-2-div {
+  width: 100%;
+  margin-right: 25px;
+  margin-left: 28px;
+  margin-top: 15px;
+  background-color: #b2babb;
+  height: 200px;
+  border-radius: 10px;
+  margin-bottom: 15px;
+  padding-left: 15px;
+}
+
+.sec-3-div {
+  width: 100%;
+  margin-right: 25px;
+  margin-left: 28px;
+  margin-top: 15px;
+  background-color: #b2babb;
+  height: 120px;
+  border-radius: 10px;
+  margin-bottom: 15px;
+  padding-left: 15px;
+}
+.btn {
+  margin-left: 0;
+}
+.bt {
+  background-color: green;
+  color: white;
+  border-radius: 6px;
+  border: none;
+  padding-top: 2px;
+  margin: 4px;
+  margin-right: 16px;
+  padding-right: 10px;
+  padding-left: 10px;
+  justify-content: flex-end;
+  cursor: pointer;
+  margin-left: auto;
+}
+/* .button-1{
+  display: flex;
+  justify-content: flex-end;
+  left: 0;
+} */
+img {
+  height: 80px;
+  width: 140px;
+}
+.sec-2-div img {
+  height: 140px;
+  width: 170px;
+}

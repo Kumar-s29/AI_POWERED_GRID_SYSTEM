@@ -1,0 +1,120 @@
+/* General Styles */
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f0f2f5;
+  margin: 0;
+  padding: 0;
+}
+
+.sec {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px;
+  gap: 20px;
+}
+
+/* Div container styles */
+.div1,
+.div2,
+.div3 {
+  background-color: #fff;
+  height: auto;
+  width: 31.5%;
+  margin-top: 75px;
+  border-radius: 12px;
+  padding: 30px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.div1:hover,
+.div2:hover,
+.div3:hover {
+  transform: translateY(-10px);
+}
+
+h1,
+h2 {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+p {
+  color: #666;
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+
+/* Input Fields */
+.input-field {
+  width: 100%;
+  padding: 12px 15px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  font-size: 14px;
+  box-sizing: border-box;
+  background-color: #f7f7f7;
+  transition: border-color 0.3s ease;
+}
+
+.input-field:focus {
+  border-color: #4caf50;
+  outline: none;
+}
+
+input[type="date"] {
+  padding-right: 40px;
+}
+
+input[type="checkbox"] {
+  margin-right: 10px;
+  transform: scale(1.2);
+}
+
+/* Checkbox group */
+.checkbox-group {
+  margin-bottom: 20px;
+}
+
+.checkbox-group label {
+  font-size: 14px;
+  color: #333;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.checkbox-group label input {
+  margin-right: 10px;
+}
+
+/* Hover effect for checkboxes */
+.checkbox-group label:hover {
+  color: #4caf50;
+}
+
+/* Container-specific styles */
+.div1 h1,
+.div2 h1,
+.div3 h1 {
+  color: #4caf50;
+}
+
+/* Button Styles */
+.z {
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 20px;
+  margin: 8px;
+  background-color: #43a047;
+  transition: background-color 0.3s ease;
+}
+
+.z:hover {
+  background-color: grey;
+}
